@@ -1,0 +1,8 @@
+{
+    "success": true,
+    "data": {
+        "msg": "Your Password has been updated Succesfull"
+    },
+    "message": "Successful",
+    "status_code": 200
+}

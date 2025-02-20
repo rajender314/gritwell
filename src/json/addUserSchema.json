@@ -1,0 +1,8 @@
+{
+    "success": true,
+    "data": {
+        "msg": "User added Succesfull"
+    },
+    "message": "Successful",
+    "status_code": 200
+}

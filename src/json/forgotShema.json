@@ -1,0 +1,8 @@
+{
+    "success": true,
+    "data": {
+        "msg": "An email has been sent your email and click on the link provided to reset your password"
+    },
+    "message": "Successful",
+    "status_code": 200
+}

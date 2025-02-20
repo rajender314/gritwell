@@ -1,0 +1,1 @@
+export { default as SalesmangerLeftmenu } from './salesmanager-leftmenu'

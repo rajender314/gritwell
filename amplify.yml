@@ -1,0 +1,23 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - nvm install $VERSION_NODE_16
+        - nvm use $VERSION_NODE_16
+        - npm install
+    build:
+      commands:
+        - nvm install $VERSION_NODE_16
+        - nvm use $VERSION_NODE_16
+        - echo $API_URL
+        - echo "REACT_APP_API_URL=$API_URL" >> .env
+        - cat .env
+        - npm run build
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*

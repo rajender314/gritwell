@@ -1,0 +1,9 @@
+export const primaryColor = '#278C71';
+export const secondaryColor = '#067356';
+export const whiteColor = '#ffffff';
+export const boldColor = '#111A1C';
+export const greyColor = '#EEF0F4';
+export const dangerColor = 'rgb(226, 68, 68)';
+export const primaryBtnColor = '#278C71';
+export const primaryBtnHoverColor = '#51B89C';
+export const commonTextColor = '#1B2324';
